@@ -230,8 +230,40 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
 
+.side-navi{
+	position: absolute;
+	z-index: 5;
+	list-style: none;
+	transform-origin: center;
+	top: 50%;
+	transform: translate(50%, -50%)
+}
+.navi-test{
+	width: 40px;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transform-origin: center;
+	transform: scale(1);
+	transition: .3s;
+	
+}
 
-
+.navi-test:hover{
+	transform: scale(1.5);
+	transition: .3s;
+	
+}
+.nav1{
+	transform: scale(1);
+	transition: .3s;
+	
+}
+.nav2.activ-nav, .nav3.activ-nav, .nav4.activ-nav, .nav5.activ-nav, .nav6.activ-nav, .nav7.activ-nav {
+	transform: scale(1.5);
+	transition: .3s;
+	
+}
 
 
 
