@@ -196,6 +196,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	color: #feec44;
 	 border: 1px solid #feec44;
 	transition-duration: 0.5s;
+	margin-left: 10px;
 
 }
 .second_button:hover{
