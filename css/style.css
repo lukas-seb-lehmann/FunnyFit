@@ -47,7 +47,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .logo{
 	position: absolute;
-	
+	z-index: 3;
 	padding-left: 10%;
 	padding-top: 2%;
 	
@@ -74,6 +74,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
+	opacity: 0;
 	
 }
 .cta{
@@ -97,6 +98,10 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	transform: translate(-50%,-50%) rotate(45deg);
 	transform-origin: center;
 	
+}
+
+.hero_cta.opacity{
+	opacity: 1;
 }
 
 

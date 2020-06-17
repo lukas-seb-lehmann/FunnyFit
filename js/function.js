@@ -11,12 +11,12 @@ new fullpage('#fullpage', {
 });
 
 
-	
-	if($(".sec1").hasClass("active")){
-		$(".hero_cta").css('opacity', '1');
+	$(document).ready(function() { 
+	if($("#sec1_selec").hasClass("active")){
+		$(".hero_cta").addClass("opacity");
 	}else{
-		$(".hero_cta").css('opacity', '0');
+		$(".hero_cta").removeClass("opacity");
 	}
-	
+	});
 	
 	
