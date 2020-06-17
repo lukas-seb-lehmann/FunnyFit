@@ -30,6 +30,13 @@ new fullpage('#fullpage', {
 		$(".cta").removeClass("opacity");
 		$(".pfeil").removeClass("opacity");
 	}
+		
+		if(destination.index == 0){
+		$(".nav1").addClass("activ-nav");
+		}if(origin.index == 0){
+		$(".nav1").removeClass("activ-nav");
+		}
+		
 		if(destination.index == 1){
 		$(".nav2").addClass("activ-nav");
 		}if(origin.index == 1){
