@@ -114,6 +114,16 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	
 
 }
+.section .fade-con{
+	opacity: 0;
+	transition: all 1s ease-in;
+	
+}
+.section.active .fade-con{
+	opacity: 1;
+
+	transition: all 1s ease-in;
+}
 
 .sec3 {
 	background: url("../bilder/tim_trans.png");
