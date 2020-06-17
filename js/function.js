@@ -7,12 +7,12 @@ new fullpage('#fullpage', {
 	
 	navigation: true,
 	navigationPosition: 'left',
-	onLeave: function(direction){
+	/*onLeave: function(direction){
 		var leavingSection = this;
 		if(origin.index == 1 && direction =='down'){
 			alert("Going to section 3!");
 		}
-	}
+	}*/
 });
 
 
