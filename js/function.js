@@ -18,7 +18,7 @@ new fullpage('#fullpage', {
 			}
 			
 			
-	}else if(origin.index == 1 && direction == 'up'){
+	}else if(destination.index == 0 && direction == 'up'){
 		
 		$(".hero_cta").removeClass("opacity");
 			
