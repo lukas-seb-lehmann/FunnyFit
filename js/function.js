@@ -3,23 +3,35 @@
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
-	scrollHorizontally: true,
+	
 	
 	navigation: true,
 	navigationPosition: 'left',
-	/*onLeave: function(direction){
+	onLeave: function(origin, destination, direction){
 		var leavingSection = this;
-		if(origin.index == 1 && direction =='down'){
-			alert("Going to section 3!");
+
+		//after leaving section 2
+		if(origin.index == 0 && direction =='down'){
+		
+			if($(".sec1").hasClass("active")){
+		$(".hero_cta").addClass("opacity");
+			}
+			
+			
+	}else if(origin.index == 1 && direction == 'up'){
+		
+		$(".hero_cta").removeClass("opacity");
+			
+	}
+		
+			
+
+	
 		}
-	}*/
+	
+		
 });
 
 
-	$(document).ready(function('cta') { 
-	if($(".sec1").hasClass("active")){
-		$(".hero_cta").toggleClass("opacity");
-	}
-	});
 	
 	
