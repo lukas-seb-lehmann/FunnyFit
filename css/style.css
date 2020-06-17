@@ -132,17 +132,17 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 }
 
-#sec4{
+.sec4{
 	background-image:url("../bilder/dose_rot.png");
 	background-color: #6630FF;
 }
 
-#sec5{
+.sec5{
 	background: url("../bilder/dose_grün.png");
 	background-color: #FF6969;
 }
 
-#sec6 {
+.sec6 {
 	background: url("../bilder/dose_orange.png");
 	background-color: #369FFF;
 }
@@ -175,6 +175,26 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	transition-duration: 0.5s;
 }
 
+.second_button {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color:  none;
+	text-decoration: none;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.1);
+	color: #feec44;
+	 border: 1px solid #feec44;
+	transition-duration: 0.5s;
+
+}
+.second_button:hover{
+	background-color: #feec44;
+	color: #6630FF;
+	border: 1px solid #6630FF;
+	transition-duration: 0.5s;
+}
+
 .btn_container{
 	margin-top: 25px;
 	margin-left: 10%;
@@ -189,7 +209,14 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
 
-
+.product_para {
+	margin-left: 10%;
+	font-size: 30px;
+	color: #feec44;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 50%;
+}
 
 
 
