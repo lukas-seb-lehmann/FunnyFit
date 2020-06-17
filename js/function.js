@@ -12,7 +12,7 @@ new fullpage('#fullpage', {
 
 
 	$(document).ready(function() { 
-	if($("#sec1_selec").hasClass("active")){
+	if($(".sec1").hasClass("active")){
 		$(".hero_cta").addClass("opacity");
 	}else{
 		$(".hero_cta").removeClass("opacity");
