@@ -9,3 +9,14 @@ new fullpage('#fullpage', {
 	navigationPosition: 'left',
 	
 });
+
+
+	
+	if($(".sec1").hasClass("active")){
+		$(".hero_cta").css('opacity', '1');
+	}else{
+		$(".hero_cta").css('opacity', '0');
+	}
+	
+	
+	

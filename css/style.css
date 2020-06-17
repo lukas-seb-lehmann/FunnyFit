@@ -47,7 +47,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .logo{
 	position: absolute;
-	z-index: 3;
+	
 	padding-left: 10%;
 	padding-top: 2%;
 	
@@ -57,7 +57,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	height: auto;
 }
 #fullpage{
-		
+		z-index: 1;
 }
 
 .sec1{
