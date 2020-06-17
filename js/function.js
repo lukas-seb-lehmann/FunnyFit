@@ -14,13 +14,15 @@ new fullpage('#fullpage', {
 		if(origin.index == 0 && direction =='down'){
 		
 			if($(".sec1").hasClass("active")){
-		$(".hero_cta").addClass("opacity");
+		$(".cta").addClass("opacity");
+				$(".pfeil").addClass("opacity");
 			}
 			
 			
 	}else if(destination.index == 0 && direction == 'up'){
 		
-		$(".hero_cta").removeClass("opacity");
+		$(".cta").removeClass("opacity");
+		$(".pfeil").removeClass("opacity");
 			
 	}
 		

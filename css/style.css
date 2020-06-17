@@ -74,8 +74,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
-	opacity: 1;
-	transition: 1s;
+	
 	
 }
 .cta{
@@ -83,7 +82,8 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	transform-origin: center;
 	color:#6630FF;
 	display: flex;
-	
+	opacity: 1;
+	transition: 1s;
 
 	text-decoration: none;
 }
@@ -98,12 +98,22 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	margin-top: 10px;
 	transform: translate(-50%,-50%) rotate(45deg);
 	transform-origin: center;
+		opacity: 1;
+	transition: 1s;
 	
 }
 
-.hero_cta.opacity{
+.cta.opacity{
 	opacity: 0;
 	transition: 1s;
+	cursor: default;
+	pointer-events: none;
+}
+.pfeil.opacity{
+	opacity: 0;
+	transition: 1s;
+	cursor: default;
+	pointer-events: none;
 }
 
 
