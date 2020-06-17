@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+h1, h2, h3{
+font-family: 'Anton', sans-serif;	
+	padding-left: 10%;
+	font-size: 100px;
+	color: #feec44;
+	margin: 0;
+	 line-height: 1.1;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #6630FF;
+}
+
+a{
+	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	color: #6630FF;
+	
+}
+
+
+
+.polyoben{
+	background: #feec44;
+	width: 100%;
+	height: 15%;
+	position:fixed;
+	z-index: 2;
+	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
+.polyunten{
+	background: #feec44;
+	width: 100%;
+	height: 15%;
+	bottom: 0;
+	position: fixed;
+	z-index: 2;
+clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
+}
+
+.logo{
+	position: absolute;
+	
+	padding-left: 10%;
+	padding-top: 2%;
+	
+}
+.logo img{
+	width: 200px;
+	height: auto;
+}
+#fullpage{
+		z-index: 1;
+}
+
+.sec1{
+	background:url("../bilder/laura_trans.png");
+	background-color: #6630FF;
+
+	position: absolute;
+}
+
+
+.hero_cta{
+	position: absolute;
+ bottom: 4%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	
+}
+.cta{
+	text-align: center;
+	transform-origin: center;
+	color:black;
+	display: flex;
+	
+
+	text-decoration: none;
+}
+.pfeil:after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-right: solid 2px black;
+	border-bottom: solid 2px black;
+	position: absolute;
+			left: 50%;
+	margin-top: 10px;
+	transform: translate(-50%,-50%) rotate(45deg);
+	transform-origin: center;
+	
+}
+
+
+.sec2{
+	background: url("../bilder/eva_trans.png");
+	background-color: #FF6969;
+	
+	
+
+}
+
+.sec3 {
+	background: url("../bilder/tim_trans.png");
+	background-color: #369FFF;
+
+
+}
+
+#sec4{
+	background-image:url("../bilder/dose_rot.png");
+	background-color: #6630FF;
+}
+
+#sec5{
+	background: url("../bilder/dose_grün.png");
+	background-color: #FF6969;
+}
+
+#sec6 {
+	background: url("../bilder/dose_orange.png");
+	background-color: #369FFF;
+}
+
+.background{
+	 background-repeat: no-repeat;
+	background-position: 85% 20%;
+	background-size: contain;
+	 
+}
+
+.button {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #feec44;
+	text-decoration: none;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.1);
+	color: #6630FF;
+	 border: 1px solid #6630FF;
+	transition-duration: 0.5s;
+
+}
+
+.button:hover{
+	background-color: #6630FF;
+	color: #feec44;
+	border: 1px solid #feec44;
+	transition-duration: 0.5s;
+}
+
+.btn_container{
+	margin-top: 25px;
+	margin-left: 10%;
+}
+
+.teaser_para {
+	margin-left: 10%;
+	font-size: 30px;
+	color: #feec44;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
