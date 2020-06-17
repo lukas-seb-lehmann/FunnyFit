@@ -7,15 +7,18 @@ new fullpage('#fullpage', {
 	
 	navigation: true,
 	navigationPosition: 'left',
-	
+	onLeave: function(direction){
+		var leavingSection = this;
+		if(origin.index == 1 && direction =='down'){
+			alert("Going to section 3!");
+		}
+	}
 });
 
 
-	$(document).ready(function() { 
+	$(document).ready(function('cta') { 
 	if($(".sec1").hasClass("active")){
-		$(".hero_cta").addClass("opacity");
-	}else{
-		$(".hero_cta").removeClass("opacity");
+		$(".hero_cta").toggleClass("opacity");
 	}
 	});
 	
