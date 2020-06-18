@@ -236,8 +236,16 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	list-style: none;
 	transform-origin: center;
 	top: 50%;
-	transform: translate(50%, -50%)
+	transform: translate(50%, -50%);
+	opacity: 0;
+	transition: 1s;
 }
+
+.side-navi.opacity-nav{
+	opacity: 1;
+	transition: 1s;
+}
+
 .navi-test{
 	width: 40px;
 	height: auto;
@@ -250,7 +258,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
 .navi-test:hover{
-	transform: scale(1.5);
+	transform: scale(1.7);
 	transition: .3s;
 	
 }
@@ -260,15 +268,28 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	
 }
 .nav1.activ-nav, .nav2.activ-nav, .nav3.activ-nav, .nav4.activ-nav, .nav5.activ-nav, .nav6.activ-nav, .nav7.activ-nav {
-	transform: scale(1.5);
+	transform: scale(1.7);
 	transition: .3s;
 	
 }
 
+.product-img-container{}
 
+.product-img{
+	object-fit: cover;
+  width: 100%;
+}
 
+.grid-container7030{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	 justify-content:center;
+  
+}
 
+.grid-text{
 
+}
 
 
 
