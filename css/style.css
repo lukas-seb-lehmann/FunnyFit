@@ -143,17 +143,17 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
 .sec4{
-	background-image:url("../bilder/dose_rot.png");
+	
 	background-color: #6630FF;
 }
 
 .sec5{
-	background: url("../bilder/dose_grün.png");
+
 	background-color: #FF6969;
 }
 
 .sec6 {
-	background: url("../bilder/dose_orange.png");
+
 	background-color: #369FFF;
 }
 
@@ -273,22 +273,22 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	
 }
 
-.product-img-container{}
+
 
 .product-img{
 	object-fit: cover;
   width: 100%;
 }
 
-.grid-container7030{
-	display: grid;
-	grid-template-columns: 50% 50%;
-	 justify-content:center;
-  
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+ justify-content: center;
 }
+.flex-text{
 
-.grid-text{
-
+		
 }
 
 
