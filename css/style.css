@@ -157,6 +157,12 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	background-color: #369FFF;
 }
 
+.sec7{
+		background-color: #6630FF;
+
+
+}
+
 .background{
 	 background-repeat: no-repeat;
 	background-position: 85% 20%;
@@ -278,7 +284,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 .product-img{
 	object-fit: cover;
   width: 100%;
-	transform: translateX(-100px);
+	transform: translateX(-150px);
 }
 
 .flex-container{

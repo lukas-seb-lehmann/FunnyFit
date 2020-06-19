@@ -79,6 +79,11 @@ new fullpage('#fullpage', {
 		$(".nav7").removeClass("activ-nav");
 		}
 		
+		if(destination.index == 7){
+		$(".nav8").addClass("activ-nav");
+		}if(origin.index == 7){
+		$(".nav8").removeClass("activ-nav");
+		}
 		
 		},
 	
