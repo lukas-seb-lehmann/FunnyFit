@@ -7,7 +7,7 @@ body{
 }
 h1, h2, h3{
 font-family: 'Anton', sans-serif;	
-	padding-left: 10%;
+	
 	font-size: 100px;
 	color: #feec44;
 	margin: 0;
@@ -208,11 +208,11 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .btn_container{
 	margin-top: 25px;
-	margin-left: 10%;
+	
 }
 
 .teaser_para {
-	margin-left: 10%;
+	
 	font-size: 30px;
 	color: #feec44;
 	margin-top: 10px;
@@ -221,7 +221,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 
 .product_para {
-	margin-left: 10%;
+
 	font-size: 30px;
 	color: #feec44;
 	margin-top: 10px;
@@ -278,6 +278,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 .product-img{
 	object-fit: cover;
   width: 100%;
+	transform: translateX(-100px);
 }
 
 .flex-container{
@@ -286,16 +287,19 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	align-items: center;
  justify-content: center;
 	height: 100%;
+	
 }
 .flex-text{
 
 
 }
 .full-con{
-	height: 100%;
+	
 }
 
-
+.text-padding-left{
+	padding-left: 10%;
+}
 
 
 
