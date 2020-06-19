@@ -165,7 +165,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .background{
 	 background-repeat: no-repeat;
-	background-position: 85% 20%;
+	background-position: 90% 20%;
 	background-size: contain;
 	 
 }
@@ -216,6 +216,10 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	margin-top: 25px;
 	
 }
+.flex-btn{
+	display: flex;
+	flex-direction: row;
+}
 
 .teaser_para {
 	
@@ -245,11 +249,15 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	transform: translate(50%, -50%);
 	opacity: 0;
 	transition: 1s;
+	cursor: default;
+	pointer-events: none;
 }
 
 .side-navi.opacity-nav{
 	opacity: 1;
 	transition: 1s;
+	cursor:alias;
+	pointer-events:all;
 }
 
 .navi-test{
@@ -292,7 +300,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 .product-img-container img{
 	height: 100%;
 	float: right;
-	transform: translateX(-300px);;
+	transform: translateX(-350px);;
 }
 .product-img-container{
 	display: flex;
@@ -308,8 +316,12 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	padding-left: 15%;
 }
 
-
-
+.vertical-center{
+	top: 50%;
+	position: relative;
+	transform-origin: center;
+	transform: translate(0, -50%)
+}
 
 
 
