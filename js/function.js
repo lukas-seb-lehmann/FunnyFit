@@ -3,7 +3,7 @@
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
-	verticalCentered:true,
+	verticalCentered:false,
 	
 	navigation: false,
 	navigationPosition: 'left',

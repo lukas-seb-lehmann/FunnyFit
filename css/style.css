@@ -281,31 +281,35 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 
 
-.product-img{
-	object-fit: cover;
-  width: 100%;
-	transform: translateX(-150px);
-}
-
 .flex-container{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
- justify-content: center;
 	height: 100%;
+	position: relative;
 	
+}
+
+.product-img-container img{
+	height: 100%;
+	float: right;
+	transform: translateX(-300px);;
+}
+.product-img-container{
+	display: flex;
 }
 .flex-text{
-
-
-}
-.full-con{
-	
+	display: flex;
+	flex-direction: column;
+	     justify-content: center;
+	width: 60%;
 }
 
 .text-padding-left{
-	padding-left: 10%;
+	padding-left: 15%;
 }
+
+
+
 
 
 
