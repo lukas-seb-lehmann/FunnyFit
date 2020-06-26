@@ -57,7 +57,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	bottom: 0;
 	position: absolute;
 z-index: 1;
-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	display: none;
 }
 
@@ -246,6 +246,7 @@ clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
 	flex-direction: row;
 	position: relative;
 	z-index: 3;
+	margin-top: 10px;
 }
 
 .teaser_para {
@@ -535,7 +536,7 @@ transition-duration: 0.5s;
 	.product-img-container img{
 	height: 100%;
 	width: auto;
-	transform: translate(100%, 10%) scale(1.5);
+	transform: translate(60%, 15%) scale(1.9);
 	
 }
 	.product_para, .teaser_para, h1, h2{
@@ -567,8 +568,17 @@ transition-duration: 0.5s;
 }
 	.second_button{
 		margin-left: 0;
-		margin-top: 10px;
+		margin-top: 5px;
+		width: 150px;
 		
+}
+	.button{
+		width: 150px;
+	}
+	.product-img-container img{
+	
+	transform: translate(40%, 15%) scale(1.5);
+	
 }
 	
 
@@ -584,6 +594,13 @@ transition-duration: 0.5s;
 h1, h2 {
 		font-size: 30px;
 	}
+	
+		.product-img-container img{
+	
+	transform: translate(30%, 15%) scale(1.5);
+	
+}
+	
 }
 
 
