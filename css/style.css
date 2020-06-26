@@ -37,7 +37,7 @@ a{
 	width: 100%;
 	height: 15%;
 	position:fixed;
-	z-index: 2;
+	z-index: 1;
 	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
 }
 .polyunten{
@@ -46,7 +46,7 @@ a{
 	height: 15%;
 	bottom: 0;
 	position: fixed;
-	z-index: 2;
+z-index: 1;
 clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
@@ -56,19 +56,16 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	height: 50%;
 	bottom: 0;
 	position: absolute;
-z-index: 20;
-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+z-index: 1;
+clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
 	display: none;
 }
 
-.zindex{
-	position: absolute;
-	z-index: 30;
-}
+
 
 .logo{
 	position: absolute;
-	z-index: 3;
+	z-index: 2;
 	padding-left: 10%;
 	padding-top: 2%;
 	
@@ -96,7 +93,7 @@ clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
  bottom: 4%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 3;
+	z-index: 2;
 	
 	
 }
@@ -151,7 +148,8 @@ clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
 	opacity: 0;
 	transition: all 1s ease-in;
 
-	
+	position: relative;
+	z-index: 3;
 }
 
 .section.active .fade-con{
@@ -258,7 +256,7 @@ clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
 
 
 .product_para {
-z-index: 3;
+
 	font-size: 30px;
 	color: #feec44;
 	margin-top: 10px;
@@ -269,7 +267,7 @@ z-index: 3;
 
 .side-navi{
 	position: absolute;
-	z-index: 5;
+	z-index: 2;
 	list-style: none;
 	transform-origin: center;
 	top: 50%;
@@ -338,7 +336,7 @@ z-index: 3;
 	position: absolute;
 	top: 30%;
 	background-color: #feec44;
-	z-index: 5;
+	
 	display: inline-flex;
 	
 	padding: 10px;
@@ -425,17 +423,19 @@ z-index: 3;
 transition-duration: 0.5s;
 	font-size: 20px;
 }
-	.flex-btn{
-	flex-direction: column;
-}
+	
 	.second_button{
-		margin-left: 0;
-		margin-top: 10px;
+		
+		
 		padding-left: 20px;
 		padding-right: 20px;
 		width: 200px;
 		text-align: center;
 		transition-duration: 0.5s;
+		background-color: #feec44;
+		color: #6630FF;
+		border-color: #6630FF;
+		
 	}
 	.button{
 		margin-left: 0;
@@ -444,6 +444,8 @@ transition-duration: 0.5s;
 		width: 200px;
 		text-align: center;
 		transition-duration: 0.5s;
+		background-color: #6630FF;
+		color: #feec44;
 	}
 	.logo img{
 	width: 150px;
@@ -458,6 +460,13 @@ transition-duration: 0.5s;
 	
 	
 }
+	
+	.vertical-center{
+	top: 75%;
+		transition-duration: 0.5s;
+}
+	
+	
 	.flex-text{
 		width: 100%;
 		height: 50%;
@@ -475,6 +484,12 @@ transition-duration: 0.5s;
 }
 	.product_para, .teaser_para, h1, h2{
 		color: #6630FF;
+		z-index: 3;
+		position: relative;
+		
+	}
+	h1, h2{
+		font-size: 50px;
 	}
 	.polyoben, .polyunten{
 		display: none;
