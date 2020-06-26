@@ -306,11 +306,33 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	display: flex;
 	width: 30%;
 }
+
+.extra {
+	position: absolute;
+	top: 30%;
+	background-color: #feec44;
+	z-index: 5;
+	display: inline-flex;
+	
+	padding: 10px;
+	transform: translate(140px, 30px);
+}
+.extra h3{
+	margin: 0;
+	margin-left: 10px;
+	color: #6630FF;
+	font-size: 20px
+}
+.fa-bolt{
+	color: #6630FF;
+	font-size: 20px
+	
+}
 .flex-text{
 	display: flex;
 	flex-direction: column;
 	     justify-content: center;
-	width: 60%;
+	width: 70%;
 }
 
 .text-padding-left{
