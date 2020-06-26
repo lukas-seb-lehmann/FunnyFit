@@ -12,7 +12,8 @@ font-family: 'Anton', sans-serif;
 	color: #feec44;
 	margin: 0;
 	 line-height: 1.1;
-	transition-duration: 0.5s;
+	
+	
 }
 p{
 	font-family: 'Roboto', sans-serif;
@@ -49,6 +50,22 @@ a{
 clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
+.polyunten_resp{
+	background: #feec44;
+	width: 100%;
+	height: 50%;
+	bottom: 0;
+	position: absolute;
+z-index: 20;
+clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+	display: none;
+}
+
+.zindex{
+	position: absolute;
+	z-index: 30;
+}
+
 .logo{
 	position: absolute;
 	z-index: 3;
@@ -62,8 +79,9 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	transition-duration: 0.5s;
 }
 #fullpage{
-		z-index: 1;
+		
 }
+
 
 .sec1{
 	background:url("../bilder/laura_trans.png");
@@ -132,12 +150,15 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 .section .fade-con{
 	opacity: 0;
 	transition: all 1s ease-in;
+
 	
 }
+
 .section.active .fade-con{
 	opacity: 1;
 
 	transition: all 1s ease-in;
+	
 }
 
 .sec3 {
@@ -186,6 +207,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	color: #6630FF;
 	 border: 1px solid #feec44;
 	transition-duration: 0.5s;
+	
 
 }
 
@@ -236,7 +258,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 
 .product_para {
-
+z-index: 3;
 	font-size: 30px;
 	color: #feec44;
 	margin-top: 10px;
@@ -304,7 +326,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .product-img-container img{
 	height: 100%;
-	
+	width: auto;
 	transform: translateX(-60%);
 }
 .product-img-container{
@@ -338,12 +360,14 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	flex-direction: column;
 	     justify-content: center;
 	width: 70%;
-	z-index: 5;
+	
 }
 
 .text-padding-left{
 	padding-left: 15%;
 	transition-duration: 0.5s;
+	position: relative;
+	
 }
 
 .vertical-center{
@@ -425,4 +449,37 @@ transition-duration: 0.5s;
 	width: 150px;
 	transition-duration: 0.5s;
 }
+}
+
+@media (max-width: 686px){
+	.flex-container{
+	
+	flex-direction: column-reverse;
+	
+	
+}
+	.flex-text{
+		width: 100%;
+		height: 50%;
+	}
+	
+	.product-img-container{
+		width: 100%;
+		height: 50%;
+	}
+	.product-img-container img{
+	height: 100%;
+	width: auto;
+	transform: translate(100%, 10%) scale(1.5);
+	
+}
+	.product_para, .teaser_para, h1, h2{
+		color: #6630FF;
+	}
+	.polyoben, .polyunten{
+		display: none;
+	}
+	.polyunten_resp{
+		display: block;
+	}
 }

@@ -4,7 +4,7 @@ new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
 	verticalCentered:false,
-	
+	fixedElements: '.polyunten_resp',
 	navigation: false,
 	navigationPosition: 'left',
 	onLeave: function(origin, destination, direction){
