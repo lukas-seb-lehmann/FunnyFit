@@ -12,16 +12,20 @@ font-family: 'Anton', sans-serif;
 	color: #feec44;
 	margin: 0;
 	 line-height: 1.1;
+	transition-duration: 0.5s;
 }
 p{
 	font-family: 'Roboto', sans-serif;
 	color: #6630FF;
+	transition-duration: 0.5s;
+	
 }
 
 a{
 	font-size: 25px;
 	font-family: 'Anton', sans-serif;
 	color: #6630FF;
+	transition-duration: 0.5s;
 	
 }
 
@@ -55,6 +59,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 .logo img{
 	width: 200px;
 	height: auto;
+	transition-duration: 0.5s;
 }
 #fullpage{
 		z-index: 1;
@@ -179,7 +184,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	text-decoration: none;
 	box-shadow: -10px 10px 10px rgba(0,0,0,0.1);
 	color: #6630FF;
-	 border: 1px solid #6630FF;
+	 border: 1px solid #feec44;
 	transition-duration: 0.5s;
 
 }
@@ -299,8 +304,8 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .product-img-container img{
 	height: 100%;
-	/*float: right;*/
-	transform: translateX(-350px);
+	
+	transform: translateX(-60%);
 }
 .product-img-container{
 	display: flex;
@@ -333,17 +338,20 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	flex-direction: column;
 	     justify-content: center;
 	width: 70%;
+	z-index: 5;
 }
 
 .text-padding-left{
 	padding-left: 15%;
+	transition-duration: 0.5s;
 }
 
 .vertical-center{
 	top: 50%;
 	position: relative;
 	transform-origin: center;
-	transform: translate(0, -50%)
+	transform: translate(0, -50%);
+		transition-duration: 0.5s;
 }
 
 /*************Kontakt***************/
@@ -367,7 +375,54 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 	width: 50%;
 }
 
+@media (max-width: 1550px){
+	.vertical-center{
+	top: 60%;
+		transition-duration: 0.5s;
+}
+}
 
-
-
-
+@media (max-width: 1024px){
+	
+	.side-navi{
+		display: none;
+	}
+	
+.text-padding-left{
+	padding-left: 5%;
+	transition-duration: 0.5s;
+}
+	h2, h1 {
+		font-size: 70px;
+		transition-duration: 0.5s;
+	}
+	
+	.product_para {
+transition-duration: 0.5s;
+	font-size: 20px;
+}
+	.flex-btn{
+	flex-direction: column;
+}
+	.second_button{
+		margin-left: 0;
+		margin-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 200px;
+		text-align: center;
+		transition-duration: 0.5s;
+	}
+	.button{
+		margin-left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 200px;
+		text-align: center;
+		transition-duration: 0.5s;
+	}
+	.logo img{
+	width: 150px;
+	transition-duration: 0.5s;
+}
+}
