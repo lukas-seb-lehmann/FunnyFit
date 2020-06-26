@@ -299,7 +299,7 @@ clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 
 .product-img-container img{
 	height: 100%;
-	float: right;
+	/*float: right;*/
 	transform: translateX(-350px);;
 }
 .product-img-container{
