@@ -580,6 +580,11 @@ transition-duration: 0.5s;
 	transform: translate(40%, 15%) scale(1.5);
 	
 }
+	.sec7 .product-img-container img{
+	
+	transform: translate(40%, 15%) scale(1.8);
+	
+}
 	
 
 }
@@ -598,6 +603,11 @@ h1, h2 {
 		.product-img-container img{
 	
 	transform: translate(30%, 15%) scale(1.5);
+	
+}
+		.sec7 .product-img-container img{
+	
+	transform: translate(30%, 15%) scale(1.8);
 	
 }
 	
