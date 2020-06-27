@@ -35,8 +35,14 @@ new fullpage('#fullpage', {
 		}if(destination.index == 0){
 			$(".side-navi").removeClass("opacity-nav");
 		}
+		//kleines Logo bei Landscape und kleinen geräten
+		
+		if(origin.index == 0 && $(window).width() < 1200 && $(window).width() > $(window).height()){
+			$("logo").addClass("smalllogo");
+		}
 		
 		
+		// seitliche Chips Navi
 		if(destination.index == 0){
 		$(".nav1").addClass("activ-nav");
 		}if(origin.index == 0){

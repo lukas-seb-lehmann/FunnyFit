@@ -76,6 +76,11 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	height: auto;
 	transition-duration: 0.5s;
 }
+.logo.smalllogo img{
+	width: 100px;
+	height: auto;
+	transition-duration: 0.5s;
+}
 #fullpage{
 		
 }
