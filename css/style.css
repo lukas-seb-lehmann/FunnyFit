@@ -187,6 +187,16 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 
 }
 
+.sec8{
+	background-color: #feec44;
+}
+
+.display{
+	opacity: 0;
+	transition-duration: 0.5s;
+	z-index: 0;
+}
+
 .background{
 	 background-repeat: no-repeat;
 	background-position: 90% 20%;
@@ -392,13 +402,41 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 }
 .instagram-con{
 	width: 50%;
+	justify-content: center;
+margin-left: 10%;
 }
+
 .instagram-con img{
-	transform: scale(0.7);
+ width: 100%;
+}
+.kontakt-insta-grid{
+	display: grid;
+  grid-template-columns: repeat(3,20%);  /* 3 columns */
+  grid-template-rows: repeat(2,); /* 2 rows  */
+  grid-gap:30px 30px;
+	   justify-content:center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
 
 .adresse-con{
 	width: 50%;
+	margin-right: 10%;
+}
+
+.kontakt-flex-child .button{
+	background-color: #6630FF;
+	color: #feec44;
+}
+.kontakt-flex-child .button:hover{
+	background-color: #feec44;
+	color: #6630FF;
+}
+
+
+.kontakt-flex-child{
+	margin-top: 10%;
 }
 
 @media (max-width: 1550px){
@@ -458,6 +496,23 @@ transition-duration: 0.5s;
 	width: 150px;
 	transition-duration: 0.5s;
 }
+	.kontakt-con{
+		flex-direction: column;
+	}
+	.instagram-con{
+	width: 100%;
+		margin-left: 0;
+	}
+	.adresse-con{
+		width: 100%;
+		margin-right: 0;
+	}
+	.kontakt-con.vertical-center{
+		top: 50%;
+	}
+	.kontakt-flex-child{
+	margin-top: 0;
+}
 }
 @media (max-width: 968px){
 		.flex-btn{
@@ -469,6 +524,7 @@ transition-duration: 0.5s;
 		margin-top: 10px;
 		
 }
+	
 
 @media (max-width: 686px){
 		.flex-btn{
@@ -522,6 +578,7 @@ transition-duration: 0.5s;
 	top: 75%;
 		transition-duration: 0.5s;
 }
+	
 	
 	
 	.flex-text{

@@ -85,6 +85,14 @@ new fullpage('#fullpage', {
 		$(".nav8").removeClass("activ-nav");
 		}
 		
+		if(destination.index == 7){
+			$(".polyunten").addClass("display");
+			$(".polyoben").addClass("display");
+		}if(origin.index == 7){
+			$(".polyunten").removeClass("display");
+			$(".polyoben").removeClass("display");
+		}
+		
 		},
 	
 	
