@@ -19,6 +19,7 @@ p{
 	font-family: 'Roboto', sans-serif;
 	color: #6630FF;
 	transition-duration: 0.5s;
+	font-size: 25px;
 	
 }
 
@@ -351,9 +352,20 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	background-color: #feec44;
 	
 	display: inline-flex;
-	
+	z-index: 4;
 	padding: 10px;
 	transform: translate(140px, 30px);
+}
+.bio{
+	background-color: none;
+		position: absolute;
+	top: 30%;
+	height: 100px;
+	
+	display: inline-flex;
+	z-index: 4;
+	
+	transform: translate(170px, 50px);
 }
 .extra h3{
 	margin: 0;
@@ -448,7 +460,7 @@ margin-left: 10%;
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) and (orientation: landscape){
 	
 	.side-navi{
 		display: none;
@@ -468,6 +480,63 @@ margin-left: 10%;
 transition-duration: 0.5s;
 	font-size: 20px;
 }
+	p{
+		font-size: 20px;
+		transition-duration: 0.5s;
+	}
+	.flex-btn{
+
+	flex-direction: row;
+}
+	
+	.second_button{
+		
+		
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 200px;
+		text-align: center;
+		transition-duration: 0.5s;
+		
+		
+	}
+	.button{
+		margin-left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 200px;
+		text-align: center;
+		transition-duration: 0.5s;
+	
+	}
+	.logo img{
+	width: 150px;
+	transition-duration: 0.5s;
+}
+}
+	@media (max-width: 1024px) and (orientation: portrait){
+		.side-navi{
+		display: none;
+	}
+	
+.text-padding-left{
+	padding-left: 5%;
+	transition-duration: 0.5s;
+	padding-right: 5%;
+}
+	h2, h1 {
+		font-size: 70px;
+		transition-duration: 0.5s;
+	}
+	
+	.product_para {
+transition-duration: 0.5s;
+	font-size: 20px;
+}
+	p{
+		font-size: 20px;
+		transition-duration: 0.5s;
+	}
 	.flex-btn{
 
 	flex-direction: row;
@@ -513,6 +582,12 @@ transition-duration: 0.5s;
 	}
 	.kontakt-flex-child{
 	margin-top: 0;
+}	
+	.background{
+	
+	background-position: 30% 0%;
+	background-size: cover;
+	 
 }
 }
 @media (max-width: 968px){
@@ -525,12 +600,19 @@ transition-duration: 0.5s;
 		margin-top: 10px;
 		
 }
+
 	
 
 @media (max-width: 686px){
 		.flex-btn{
 	
 	flex-direction: row;
+}
+		.background{
+	
+	background-position: 30% 20%;
+	background-size: contain;
+	 
 }
 	
 	.second_button{
@@ -616,7 +698,7 @@ transition-duration: 0.5s;
 }
 
 @media (max-width: 500px){
-.product_para, .teaser_para {
+.product_para, .teaser_para, p {
 transition-duration: 0.5s;
 	font-size: 17px;
 }
