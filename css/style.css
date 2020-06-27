@@ -432,6 +432,7 @@ margin-left: 10%;
 .kontakt-flex-child .button:hover{
 	background-color: #feec44;
 	color: #6630FF;
+	border-color: #6630FF;
 }
 
 
