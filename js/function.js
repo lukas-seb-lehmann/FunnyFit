@@ -37,7 +37,7 @@ new fullpage('#fullpage', {
 		}
 		//kleines Logo bei Landscape und kleinen geräten
 		
-		if(origin.index == 0 && $(window).width() < 1200 && $(window).width() > $(window).height()){
+		if(origin.index == 0 && $(window).width() < 1024 && $(window).width() > $(window).height()){
 			$("logo").addClass("smalllogo");
 		}
 		
