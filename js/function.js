@@ -37,8 +37,10 @@ new fullpage('#fullpage', {
 		}
 		//kleines Logo bei Landscape und kleinen geräten
 		
-		if(origin.index == 0 && $(window).width() < 1024 && $(window).width() > $(window).height()){
-			$("logo").addClass("smalllogo");
+		if(origin.index == 0 && $(window).width() < 1200 && $(window).width() > $(window).height()){
+			$(".logo").addClass("smalllogo");
+		}if(destination.index == 0){
+			$(".logo").removeClass("smalllogo");
 		}
 		
 		
