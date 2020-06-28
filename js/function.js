@@ -1,5 +1,37 @@
 // JavaScript Document
 
+//Navi
+function span1rot() {
+
+	$('.span1').toggleClass("active1");
+}
+
+function span2dis() {
+	$('.span2').toggleClass("active2");
+}
+
+function span3rot() {
+	$('.span3').toggleClass("active3");
+}
+
+function menu() {
+	$('.main-nav').toggleClass("active-main-nav");
+	$('.ham span').toggleClass("active-nav-span");
+	$('.navi-background').toggleClass("active-back");
+}
+
+function closemenu(){
+	
+		$('.main-nav').toggleClass("active-main-nav");
+		$('.ham span').toggleClass("active-nav-span");
+	$('.navi-background').toggleClass("active-back");
+}
+
+
+
+
+//Fulpage
+
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,

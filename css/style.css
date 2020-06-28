@@ -31,7 +31,127 @@ a{
 	
 }
 
+/*Hamburger Navi*/
+.main-nav{
+	position: absolute;
+	z-index: 6;
+	height: 100%;
+	width: 30%;
+	background-color: rgba(254,236,68,0.95);
+	left: calc(100% - 0px);
+	transition-duration: 0.5s;
+	
+	
+}
 
+.main-nav.active-main-nav{
+		left: calc(100% - 30%);
+	transition-duration: 0.5s;
+}
+.main-nav ul{
+	list-style: none;
+text-align: center;
+padding: 0;
+	top: 50%;
+	position: relative;
+	transform-origin: center;
+	transform: translate(0, -50%);
+	
+}
+.main-nav a{
+	text-decoration: none;
+}
+.main-nav li{
+
+		margin-bottom: 50px;
+}
+
+.ham{
+	position: absolute;
+	width: 45px;
+  height: 45px;
+right: 5%;
+	top: 10%;
+	z-index: 100;
+}
+.ham span{
+	position: absolute;
+	width: 100%;
+  height: 6px;
+  background-color: #feec44;
+ transition-duration: 0.5s;
+	border-radius: 3px;
+
+}
+
+.ham span.active-nav-span{
+	background-color: #6630FF;
+transition-duration: 0.5s;	
+}
+.span1 {
+  top: 0px;
+	transform-origin: center;
+	transform: rotate(0deg);
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+
+}
+
+.span2 {
+  top: 12px;
+	transform-origin: center;
+	transform: rotate(0deg);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-out;
+}
+
+.span3 {
+  top: 24px;
+	transform-origin: center;
+	transform: rotate(0deg);
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+
+.span1.active1{
+	top: 12px;
+	
+	transform-origin: center;
+	transform: rotate(-45deg);
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	
+}
+.span2.active2{
+	height: 0px;
+	width: 0px;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-out;
+}
+.span3.active3{
+	top: 12px;
+	
+	transform-origin: center;
+	transform: rotate(45deg);
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	
+}
+
+.navi-background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+	transition-duration: 0.5s;
+	transition-delay: 0.1s;
+	
+}
+.navi-background.active-back{
+	transition-duration: 0.5s;
+	z-index: 5;
+	background-color: rgba(106,106,106,0.62);
+}
 
 .polyoben{
 	background: #feec44;
