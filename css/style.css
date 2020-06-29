@@ -598,6 +598,13 @@ margin-left: 10%;
 	top: 60%;
 		transition-duration: 0.5s;
 }
+	.main-nav{
+		display: none;
+		width: 30%;
+	}
+	.main-nav.active-main-nav{
+		display: block;
+	}
 
 }
 /******************First Major Breakpoint Landscape ****************/
@@ -749,12 +756,10 @@ transition-duration: 0.5s;
 /******************Minor Breakpoint**************/
 @media (max-width: 968px){
 	.main-nav{
-		display: none;
+		
 		width: 80%;
 	}
-	.main-nav.active-main-nav{
-		display: block;
-	}
+
 	
 	.main-nav a{
 	
@@ -769,7 +774,7 @@ transition-duration: 0.5s;
 		margin-top: 10px;
 		
 }*/
-}
+
 	
 /******************Second Major Breakpoint**************/
 @media (max-width: 686px){
