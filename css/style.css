@@ -36,7 +36,7 @@ a{
 	position: absolute;
 	z-index: 6;
 	height: 50%;
-	width: 30%;
+	width: 50%;
 	background-color: rgba(254,236,68,0.95);
 	left: calc(100% - 0px);
 	transition-duration: 0.5s;
