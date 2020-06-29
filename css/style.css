@@ -227,6 +227,7 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	background-color: #6630FF;
 
 	position: absolute;
+	z-index: 8;
 }
 
 
@@ -282,7 +283,8 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 .sec2{
 	background: url("../bilder/eva_trans.png");
 	background-color: #FF6969;
-	
+	position: absolute;
+	z-index: 7;
 	
 
 }
@@ -304,33 +306,43 @@ position: relative;
 .sec3 {
 	background: url("../bilder/tim_trans.png");
 	background-color: #369FFF;
-
+position: absolute;
+	z-index: 6;
 
 }
 
 .sec4{
 	
 	background-color: #6630FF;
+	position: absolute;
+	z-index: 5;
 }
 
 .sec5{
 
 	background-color: #FF6969;
+	position: absolute;
+	z-index: 4;
 }
 
 .sec6 {
 
 	background-color: #369FFF;
+	position: absolute;
+	z-index: 3;
 }
 
 .sec7{
 		background-color: #6630FF;
-
+position: absolute;
+	z-index: 2;
 
 }
 
 .sec8{
 	background-color: #feec44;
+	position: absolute;
+	z-index: 1;
 }
 
 .display{
