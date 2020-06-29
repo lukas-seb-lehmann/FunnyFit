@@ -35,7 +35,7 @@ a{
 .main-nav{
 	position: absolute;
 	z-index: 6;
-	
+	height: 50%;
 	width: 30%;
 	background-color: rgba(254,236,68,0.95);
 	left: calc(100% - 0px);
@@ -52,10 +52,10 @@ a{
 	list-style: none;
 text-align: center;
 padding: 0;
-/*	top: 50%;
+	top: 50%;
 	position: relative;
 	transform-origin: center;
-	transform: translate(0, -50%);*/
+	transform: translate(0, -50%);
 	
 }
 .main-nav a{
