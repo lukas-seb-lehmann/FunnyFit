@@ -117,7 +117,7 @@ transition-duration: 0.5s;
   top: 12px;
 	transform-origin: center;
 	transform: rotate(0deg);
-	transition-duration: 0.2s;
+	transition-duration: 0.1s;
 	transition-timing-function: ease-out;
 }
 
@@ -139,9 +139,9 @@ transition-duration: 0.5s;
 	
 }
 .span2.active2{
-	height: 0px;
+	
 	width: 0px;
-	transition-duration: 0.2s;
+	transition-duration: 0.1s;
 	transition-timing-function: ease-out;
 }
 .span3.active3{
@@ -290,8 +290,7 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	opacity: 0;
 	transition: all 1s ease-in;
 
-	position: relative;
-	z-index: 3;
+
 }
 
 .section.active .fade-con{
@@ -357,6 +356,8 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	color: #6630FF;
 	 border: 1px solid #feec44;
 	transition-duration: 0.5s;
+	position: relative;
+	z-index: 10;
 	
 
 }
@@ -397,8 +398,7 @@ clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 	display: flex;
 	flex-direction: row;
 	position: relative;
-	z-index: 3;
-	margin-top: 10px;
+	
 }
 
 .teaser_para {
@@ -610,6 +610,10 @@ margin-left: 10%;
 /******************First Major Breakpoint Landscape ****************/
 @media (max-width: 1024px) and (orientation: landscape){
 	
+	.hero_cta a{
+		font-size: 18px;
+	}
+	
 	.main-nav{
 		
 		width: 50%;
@@ -728,6 +732,12 @@ transition-duration: 0.5s;
 	width: 150px;
 	transition-duration: 0.5s;
 }
+		.extra {
+	
+	transform: translate(-50px, 400px);
+}
+		
+		
 	.kontakt-con{
 		flex-direction: column;
 	}
@@ -765,6 +775,9 @@ transition-duration: 0.5s;
 	
 	font-size: 1.5em;
 }
+	.hero_cta a{
+		font-size: 18px;
+	}
 		/*.flex-btn{
 	
 	flex-direction: column;
@@ -778,9 +791,26 @@ transition-duration: 0.5s;
 	
 /******************Second Major Breakpoint**************/
 @media (max-width: 686px){
+	.ham{
+
+right: 5%;
+	top: 80%;
+	}
+	.ham span{
+
+  background-color: #6630FF;
+	}
 	
-		
 	
+	
+		.pfeil:after{
+	
+	width: 20px;
+	height: 20px;
+	}
+	.hero_cta a{
+		font-size: 13px;
+	}
 	
 		.flex-btn{
 	
@@ -820,6 +850,13 @@ transition-duration: 0.5s;
 	a{
 		font-size: 15px;
 	}
+	
+	.extra {
+	
+	transform: translate(290px, 150px);
+}
+	
+	
 	.logo img{
 	width: 100px;
 	transition-duration: 0.5s;
@@ -895,6 +932,19 @@ transition-duration: 0.5s;
 	.button{
 		width: 150px;
 	}
+	.extra {
+	
+	transform: translate(280px, 120px);
+}
+	.extra h3{
+	
+	font-size: 14px
+}
+	.fa-bolt{
+	
+	font-size: 14px
+	
+}
 	.product-img-container img{
 	
 	transform: translate(40%, 15%) scale(1.5);
@@ -931,6 +981,7 @@ h1, h2 {
 	
 }
 	
+}
 }
 
 
