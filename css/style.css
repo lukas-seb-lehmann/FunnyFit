@@ -65,6 +65,17 @@ padding: 0;
 }
 .main-nav a{
 	text-decoration: none;
+	font-size: 2.5em;
+	border-bottom-color: rgba(0,0,0,0.00);
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	
+}
+
+.main-nav a:hover{
+	border-bottom-color: #6630FF;
+	
+
 }
 .main-nav li{
 
@@ -581,7 +592,7 @@ margin-left: 10%;
 .kontakt-flex-child{
 	margin-top: 10%;
 }
-
+/******************Minor Breakpoint*********************/
 @media (max-width: 1550px){
 	.vertical-center{
 	top: 60%;
@@ -589,8 +600,13 @@ margin-left: 10%;
 }
 
 }
-
+/******************First Major Breakpoint Landscape ****************/
 @media (max-width: 1024px) and (orientation: landscape){
+	
+	.main-nav{
+		
+		width: 50%;
+	}
 	
 	.side-navi{
 		display: none;
@@ -644,7 +660,16 @@ transition-duration: 0.5s;
 	transition-duration: 0.5s;
 }
 }
+
+/********************First Major Breakpoint Portrait********************/
 	@media (max-width: 1024px) and (orientation: portrait){
+		
+		
+	.main-nav{
+		
+		width: 50%;
+	}
+		
 		.side-navi{
 		display: none;
 	}
@@ -720,7 +745,21 @@ transition-duration: 0.5s;
 	 
 }
 }
+
+/******************Minor Breakpoint**************/
 @media (max-width: 968px){
+	.main-nav{
+		display: none;
+		width: 80%;
+	}
+	.main-nav.active-main-nav{
+		display: block;
+	}
+	
+	.main-nav a{
+	
+	font-size: 1.5em;
+}
 		.flex-btn{
 	
 	flex-direction: column;
@@ -732,16 +771,12 @@ transition-duration: 0.5s;
 }
 
 	
-
+/******************Second Major Breakpoint**************/
 @media (max-width: 686px){
 	
-		.main-nav{
-		display: none;
-		width: 50%;
-	}
-	.main-nav.active-main-nav{
-		display: block;
-	}
+		
+	
+	
 		.flex-btn{
 	
 	flex-direction: row;
@@ -836,7 +871,7 @@ transition-duration: 0.5s;
 }
 	
 	
-
+/*****************************Minor mobile Breakpoints*************/
 @media (max-width: 500px){
 .product_para, .teaser_para, p {
 transition-duration: 0.5s;
