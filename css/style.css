@@ -45,17 +45,16 @@ a{
 }
 
 .main-nav.active-main-nav{
-		left: calc(100% - 30%);
+		left: calc(100% - 50%);
 	transition-duration: 0.5s;
 }
 .main-nav ul{
 	list-style: none;
 text-align: center;
 padding: 0;
-	top: 50%;
+	
 	position: relative;
-	transform-origin: center;
-	transform: translate(0, -50%);
+
 	
 }
 .main-nav a{
