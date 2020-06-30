@@ -41,13 +41,13 @@ a{
 right: -30%;
 	transition-duration: 0.5s;
 	overflow-x: hidden;
-	
+	display: none;
 	
 }
 
 .main-nav.active-main-nav{
 		right: 0%;
-	
+	display: block;
 	transition-duration: 1s;
 	
 	
@@ -615,12 +615,10 @@ margin-left: 10%;
 		transition-duration: 0.5s;
 }
 	.main-nav{
-		display: none;
+		
 		width: 30%;
 	}
-	.main-nav.active-main-nav{
-		display: block;
-	}
+	
 
 }
 /******************First Major Breakpoint Landscape ****************/
