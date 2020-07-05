@@ -577,10 +577,12 @@ margin-left: 10%;
 
 .instagram-con img{
  width: 100%;
+	transition-duration: .5s;
 }
 
 .instagram-con img:hover{
 transform: scale(1.1);
+	transition-duration: .5s;
 }
 .kontakt-insta-grid{
 	display: grid;
