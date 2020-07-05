@@ -349,6 +349,14 @@ position: absolute;
 	z-index: 1;
 }
 
+.sec404{
+	background: url("../bilder/laura_404.png");
+		background-color: #6630FF;
+position: absolute;
+	z-index: 2;
+
+}
+
 .display{
 	opacity: 0;
 	transition-duration: 0.5s;
@@ -643,7 +651,9 @@ transform: scale(1.1);
 		width: 30%;
 	}
 	
-
+	h2, h1{
+		font-size: 5em;
+	}
 }
 /******************First Major Breakpoint Landscape ****************/
 @media (max-width: 1024px) and (orientation: landscape){
