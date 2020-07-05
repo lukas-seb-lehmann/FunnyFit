@@ -478,7 +478,7 @@ position: absolute;
 	transition: .3s;
 	
 }
-.nav1.activ-nav, .nav2.activ-nav, .nav3.activ-nav, .nav4.activ-nav, .nav5.activ-nav, .nav6.activ-nav, .nav7.activ-nav {
+.nav1.activ-nav, .nav2.activ-nav, .nav3.activ-nav, .nav4.activ-nav, .nav5.activ-nav, .nav6.activ-nav, .nav7.activ-nav, .nav8.activ-nav {
 	transform: scale(1.7);
 	transition: .3s;
 	
@@ -882,8 +882,16 @@ right: 5%;
 	}
 	
 	.extra {
-	
+	transition-duration: 0.5s;
 	transform: translate(290px, 150px);
+}
+	.bio{
+	transition-duration: 0.5s;
+	top: 30%;
+	height: 50px;
+	
+	
+	transform: translate(350px, 90px);
 }
 	
 	
@@ -962,9 +970,19 @@ transition-duration: 0.5s;
 	.button{
 		width: 150px;
 	}
-	.extra {
 	
-	transform: translate(280px, 120px);
+	.bio{
+	
+	top: 30%;
+	height: 30px;
+	
+	transition-duration: 0.5s;
+	transform: translate(170px, 90px);
+}
+	
+	.extra {
+	transition-duration: 0.5s;
+	transform: translate(170px, 120px);
 }
 	.extra h3{
 	
