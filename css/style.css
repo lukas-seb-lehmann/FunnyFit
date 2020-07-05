@@ -578,6 +578,10 @@ margin-left: 10%;
 .instagram-con img{
  width: 100%;
 }
+
+.instagram-con img:hover{
+transform: scale(1.1);
+}
 .kontakt-insta-grid{
 	display: grid;
   grid-template-columns: repeat(3,20%);  /* 3 columns */
