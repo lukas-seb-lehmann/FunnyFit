@@ -1,5 +1,14 @@
 // JavaScript Document
 
+//Preloader
+window.addEventListener("load", () => {
+	const preload = document.querySelector(".preload");
+	preloader.classlist.add("preload-finish");
+	
+	
+});
+
+
 //Navi
 function span1rot() {
 

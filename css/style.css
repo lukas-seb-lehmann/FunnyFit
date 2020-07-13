@@ -32,6 +32,45 @@ a{
 	
 }
 
+/*Preloader*/
+.preload{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: 120;
+	background-color: #6630FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.preload h3{
+	position: absolute;
+	top: 65%;
+	font-size: 40px;
+}
+
+.preload-logo{
+	height: 200px;
+	animation: logodrehen 4s ease infinite;
+	transform-origin: center;
+}
+
+.preload.preload-finish{
+	opacity: 0;
+	pointer-events: none;
+}
+
+@keyframes logodrehen{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+
 /*Hamburger Navi*/
 .main-nav{
 	position: absolute;
