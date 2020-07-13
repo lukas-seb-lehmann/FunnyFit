@@ -4,7 +4,7 @@
 window.addEventListener("load", () => {
 	
 	$(".preload").addClass("preload-finish");
-	
+	$(".logo").addClass("animate__tada");
 	
 });
 
