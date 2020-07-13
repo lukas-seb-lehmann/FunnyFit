@@ -49,6 +49,7 @@ a{
 	top: 65%;
 	font-size: 40px;
 	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
 .preload-logo{
@@ -914,6 +915,14 @@ right: 5%;
 	background-size: contain;
 	 
 }
+	.teaser-btn{
+		margin-top: 20px!important;
+	}
+
+	
+	.btn_container{
+		margin-top: 10px;
+	}
 	
 	.second_button{
 		margin-left: 10px;
@@ -1044,7 +1053,7 @@ transition-duration: 0.5s;
 	
 	.extra {
 	transition-duration: 0.5s;
-	transform: translate(170px, 120px);
+	transform: translate(170px, 90px);
 }
 	.extra h3{
 	
