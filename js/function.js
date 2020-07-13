@@ -3,7 +3,7 @@
 //Preloader
 window.addEventListener("load", () => {
 	const preload = document.querySelector(".preload");
-	preloader.classlist.add("preload-finish");
+	preload.classlist.add("preload-finish");
 	
 	
 });
