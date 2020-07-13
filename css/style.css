@@ -639,9 +639,8 @@ transform: scale(1.1);
 }
 .kontakt-insta-grid{
 	display: grid;
-  grid-template-columns: repeat(3,20%);  /* 3 columns */
-  grid-template-rows: repeat(2,); /* 2 rows  */
-  grid-gap:30px 30px;
+  grid-template-columns: repeat(3,20%);
+  grid-template-rows: repeat(2,); 
 	   justify-content:center;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -738,16 +737,13 @@ transform: scale(1.1);
 	transition-duration: 0.5s;
 	padding-right: 5%;
 }
-	h2, h1 {
-		font-size: 70px;
-		transition-duration: 0.5s;
-	}
+	
 	
 	.product_para {
 transition-duration: 0.5s;
 	font-size: 20px;
 }
-	p{
+	p,a{
 		font-size: 20px;
 		transition-duration: 0.5s;
 	}
