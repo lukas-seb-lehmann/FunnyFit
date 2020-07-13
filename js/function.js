@@ -1,11 +1,18 @@
 // JavaScript Document
 
 //Preloader
-window.addEventListener("load", () => {
+/*window.addEventListener("load", () => {
 	
 	$(".preload").addClass("preload-finish");
 	$(".logo").addClass("animate__tada");
 	
+});*/
+
+window.addEventListener("load", function() {
+	setTimeout(function(){
+	$(".preload").addClass("preload-finish");
+	$(".logo").addClass("animate__tada");
+	},2000);
 });
 
 

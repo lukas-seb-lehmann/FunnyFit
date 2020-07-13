@@ -54,7 +54,7 @@ a{
 
 .preload-logo{
 	height: 200px;
-	animation: logodrehen 4s ease infinite;
+	animation: logodrehen 2s ease infinite;
 	transform-origin: center;
 }
 
