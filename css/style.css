@@ -1099,6 +1099,10 @@ h1, h2 {
 	transform: translate(30%, 15%) scale(1.8);
 	
 }
+		.vertical-center{
+	top: 70%;
+		transition-duration: 0.5s;
+}
 	
 }
 
