@@ -2,8 +2,8 @@
 
 //Preloader
 window.addEventListener("load", () => {
-	const preload = document.querySelector(".preload");
-	preload.classlist.add("preload-finish");
+	
+	$(".preload").addClass("preload-finish");
 	
 	
 });
