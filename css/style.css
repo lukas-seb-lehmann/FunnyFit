@@ -709,7 +709,9 @@ transform: scale(1.1);
 }
 /******************First Major Breakpoint Landscape ****************/
 @media (max-width: 1024px) and (orientation: landscape){
-	
+	h2, h1{
+		font-size: 4em;
+	}
 	.hero_cta a{
 		font-size: 18px;
 	}
